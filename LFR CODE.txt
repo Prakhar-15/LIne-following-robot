@@ -18,7 +18,7 @@ void setup()
   pinMode(RM1, OUTPUT);
   pinMode(RM2, OUTPUT);
 }
-
+/* Hack Ocotber */
 void loop()
 {
   if(digitalRead(LS) && digitalRead(RS))     // Move Forward
